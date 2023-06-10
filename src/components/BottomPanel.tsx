@@ -26,7 +26,7 @@ export function BottomPanel({
 						}`}
 						onClick={() => changeCategory(item)}
 					>
-						All
+						{item}
 					</li>
 				))}
 			</ul>

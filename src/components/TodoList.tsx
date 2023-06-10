@@ -7,7 +7,7 @@ interface TodoListProps {
 	todos: ITodo[];
 }
 
-export function TodoList({ todos, toggleTodo, removeTodo }: TodoListProps) {
+export function TodoList({ todos, toggleTodo }: TodoListProps) {
 	return (
 		<ul className='w-full min-h-[100px] bg-zinc-700 shadow-inner flex flex-col gap-0 [&>*:nth-child(2n+1)]:bg-zinc-600' role='todosinfo'>
 			{todos.map((todo) => (
