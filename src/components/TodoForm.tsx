@@ -13,6 +13,7 @@ export function TodoForm(props: TodoFormProps) {
 				className='placeholder:text-gray-400 placeholder:italic p-4 outline-none 
 			focus:shadow-lg hover:shadow-lg transition w-full bg-zinc-700'
 				type='text'
+				role='todosinput'
 				placeholder='Ваши дела будут тут'
 				value={props.input}
 				onChange={props.handleSetInput}
