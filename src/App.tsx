@@ -91,7 +91,7 @@ function App() {
 	return (
 		<>
 			<h1 className='text-4xl font-light mb-4'>Дела</h1>
-			<div className='relative min-h-full flex flex-col items-center justify-center min-w-[350px] w-full max-w-[650px] shadow-lg'>
+			<div className='relative min-h-full flex flex-col items-center justify-center min-w-[330px] w-full max-w-[650px] shadow-lg'>
 				<TodoForm
 					handleSetInput={handleSetInput}
 					addTodo={addTodo}

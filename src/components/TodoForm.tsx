@@ -10,7 +10,7 @@ export function TodoForm(props: TodoFormProps) {
 	return (
 		<form onSubmit={props.addTodo} className='flex justify-between w-full'>
 			<input
-				className='placeholder:text-gray-400 placeholder:italic p-4 outline-none 
+				className='placeholder:text-gray-400 placeholder:italic p-4 outline-none rounded-none 
 			focus:shadow-lg hover:shadow-lg transition w-full bg-zinc-700'
 				type='text'
 				role='todosinput'
